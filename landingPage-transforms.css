@@ -1,0 +1,22 @@
+.clearfix {
+    border: none;
+}
+
+.major-navigation > ul a {
+    color: silver;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: black;
+    font-size: .7em;
+    border: none;
+    transition: all .2s ease-in-out;
+}
+
+.major-navigation > ul a:hover {
+    transform: scale(1.1);
+}
+
+
+.major-navigation > ul a:active {
+    font-size: 1em;
+}
+
