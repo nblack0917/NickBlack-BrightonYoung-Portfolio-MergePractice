@@ -29,6 +29,7 @@
 
 body {
 	margin: 0;
+	display: center;
 }
 
 body>header h1, body>header .tagline, body>header section, body>footer {
@@ -54,6 +55,7 @@ body {
 	font-family: "Open Sans", sans-serif;
 	font-size: 150%;
 	line-height: 1.8;
+	justify-content: center;
 }
 
 .social-media-links dt {
@@ -98,7 +100,7 @@ main>section, article {
 }
 
 .major-navigation li {
-	margin-right: 24px;
+	margin-right:30px;
 }
 
 .major-navigation > ul a {
@@ -111,6 +113,7 @@ main>section, article {
 	text-align: right;
 	text-decoration: none;
 	display: block;
+	transition: all .2s ease-in-out; 
 }
 
 .major-navigation > ul li:nth-of-type(2) a {
@@ -120,6 +123,7 @@ main>section, article {
 
 .major-navigation > ul a:focus, .major-navigation > ul a:hover {
 	text-decoration: underline;
+	transform: scale(1.1);
 }
 
 /* Major Navigation Controls */
